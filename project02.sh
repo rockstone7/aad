@@ -8,7 +8,7 @@ while read LINE
 do	
 	#This assigns the result, number of users, of each computer first doing ssh on
 	#each computers. Then it uses users| wc -w to see if there are any users using the computer
-	Users=$(ssh -n -o StrictHostKeyChecking=no -l yk43 $LINE 2>error.txt 'users| wc -w')
+	Users=$(ssh -n -o StrictHostKeyChecking=no -l pj24 $LINE 2>error.txt 'users| wc -w')
 	#This is a if statement checking whether an error has occurred while trying ssh
 	if [ $? -ne 0 ]	
 	then 
