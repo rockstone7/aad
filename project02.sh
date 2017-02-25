@@ -1,12 +1,5 @@
 #!/bin/sh
-#
-#project02.sh is a simple shell program that automates the process of checking if the computers on the
-#computers.txt list are avaliable. Furthermore it checks whether they are booted in linux, windows, or
-#shut down.
-#
-#Date: March 10, 2015
-#Author: Peter Kim, yk43
-#For CS 232
+
 ####################################################################################
 
 echo These are the computers that are avaliable, shut down, or on windows
